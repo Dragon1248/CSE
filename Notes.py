@@ -1,4 +1,4 @@
-print("Hello world")
+"""print("Hello world")
 
 # Sergio Yanez
 
@@ -17,7 +17,7 @@ print(13 & 12)
 
 # the "%" sign is a modulus it finds the remainder
 
-car_name = "Wibe Mobile"
+car_name = "Wiebe Mobile"
 car_type = "BMW"
 car_cylinders = 8
 car_mpg = 5000.9
@@ -29,8 +29,70 @@ print("I have a car called &s. It's a %."(car_name, car_type))  # watch the orde
 print("what is your name?")
 name = input(">_")
 print("hello %s." % name)
-
-age = input (" How old are you?")
+"""
+age = input("How old are you?")
 print("%s?! That's really old. You belong in a retirement home." % age)
+
+
+# Functions
+
+
+def print_hw():
+    print("Hello world.")
+    print("Enjoy the day.")
+
+
+print_hw()
+
+
+def say_hi(name):  # Name is a "parameter"
+    print("Hello %s" % name)
+    print("Coding is great!")
+
+
+say_hi("John")
+
+
+def print_age(name, age):
+    print("%s is %d years old" % (name, age))
+    age = age + 1
+    print("Next year, %s will be %d years old" % (name, age))
+
+
+print_age("John", 15)
+
+
+def algebra_hw(x):
+    return x**3 + 4*x**2 + 7 * x - 4
+
+print(algebra_hw(3))
+print(algebra_hw(4))
+print(algebra_hw(5))
+print(algebra_hw(6))
+print(algebra_hw(7))
+
+
+
+# if statements
+
+
+def grade_calc(percentage):
+    if percentage >= 90:
+        return "A"
+    elif percentage >= 80: # elif
+        return "B"
+    elif percentage >= 70:
+        return "C"
+    elif percentage >= 60:
+        return "D"
+    else:
+        return "F"
+
+
+
+
+print(grade_calc)
+
+
 
 
