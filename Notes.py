@@ -89,10 +89,25 @@ def grade_calc(percentage):
     else:
         return "F"
 
-
-
-
 print(grade_calc)
+
+# Lists
+the_count = [1, 2, 3, 4, 5]
+cheeseburger_ingredients = ['cheese', "beef", "sauce", "sesame seed bun", " avocado", "onion"]
+print(cheeseburger_ingredients[3])
+print(len(cheeseburger_ingredients))
+
+# Going through lists
+for generic_item_name in cheeseburger_ingredients:
+    print(generic_item_name)
+
+length = len(cheeseburger_ingredients)
+range(5) # A list of numbers 0 through 4
+range(len(cheeseburger_ingredients)) # Generate a list of all indices
+
+for num in range(lrn(cheeseburger_ingredients)):
+    item = cheeseburger_ingredients[num]
+    print("The item at index %d is %s" % (num, item))
 
 
 
