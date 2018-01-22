@@ -9,4 +9,5 @@ make hangman
 5. Create win and lose  Condition
 """
 
-word_banks = 
+word_banks = [ 'Phones', 'Tablets', 'Computer', 'Xbox One', 'Ps4','Xbox 360', 'Ps3', 'Fortnite', 'Pubg', 'Rules of survival' ]
+
