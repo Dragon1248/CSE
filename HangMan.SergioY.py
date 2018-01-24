@@ -1,14 +1,17 @@
-"""
-A general guide for hangman
+import random
+
+""" 
+this a guide on how to
+make hangman
 1. Make a word bank - 10 items
 2. Select a random item to guess
-3. Take in a letter and add it to a list pf letters_guessed
+3. Take in a letter and add it to a list of letters_guessed
 4. Hide and reveal letters
 5. Create the win Condition
-
 """
 
-word_banks = [ 'Phones', 'Tablets', 'Computer', 'Xbox One', 'Ps4','Xbox 360', 'Ps3', 'Fortnite', 'Pubg', 'Rules of survival' ]
+word_bank = [ 'Phones', 'Tablets', 'Computer', 'Xbox One', 'Ps4','Memes', 'Ps3', 'Fortnite', 'Pubg', 'Rules of survival' ]
 
-import string
-print(string)
+the_word = random.choice(word_bank)
+print(the_word)
+user_input = input ("type in a letter :")
