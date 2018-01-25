@@ -10,8 +10,17 @@ make hangman
 5. Create the win Condition
 """
 
-word_bank = [ 'Phones', 'Tablets', 'Computer', 'Xbox One', 'Ps4','Memes', 'Ps3', 'Fortnite', 'Pubg', 'Rules of survival' ]
+word_bank = ['Phones', 'Tablets', 'Computer', 'Xbox One', 'Ps4','Memes', 'Ps3', 'Fortnite', 'Pubg', 'Rules of survival']
+
+import string
+print(string.   )
 
 the_word = random.choice(word_bank)
 print(the_word)
-user_input = input ("type in a letter :")
+user_input = input("type in a letter :")
+wordsguessed =[]
+
+while user_input !="start":
+    user_input =  ("type in a letter")
+
+
