@@ -15,8 +15,13 @@ word_bank = ['Phones', 'Tablets', 'Computer', 'Xbox One', 'Ps4', 'Memes', 'Ps3',
 
 the_word = random.choice(word_bank)
 print(the_word)
+
 user_input = input("type in a letter :")
+length = len(word_bank)
+range(11)
+range(len(word_bank))
 wordsguessed = []
+print(wordsguessed)
 
 while user_input != "start":
     user_input = "type in a letter"
