@@ -12,7 +12,6 @@ make hangman
 
 word_bank = ['Phones', 'Tablets', 'Computer', 'Xbox One', 'Ps4', 'Memes', 'Ps3', 'Fortnite', 'Pubg', 'Rules of survival']
 
-
 the_word = random.choice(word_bank)
 print(the_word)
 
@@ -24,4 +23,5 @@ wordsguessed = []
 print(wordsguessed)
 
 while user_input != "start":
-    user_input = "type in a letter"
+    user_input =("type in a letter")
+
