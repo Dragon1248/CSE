@@ -4,18 +4,18 @@ print(string.ascii_letters)
 print(string.ascii_lowercase)
 print(string.punctuation)
 
-Word_bank = ["Phones', 'Tablets', 'Computer', 'Xbox One', 'Ps4', 'Memes', 'Ps3', 'Fortnite', 'Pubg', 'Rules of survival'"]
+Word_bank = ["Games", "phone", "tablet", "ROS", "COD3",  ]
 length = len(Word_bank)
 range(11)
 range(len(Word_bank))
 
 randomWords = random.choice(Word_bank)
-
+Guesses_left = 10
 letters_guessed = []
 user_input = ""
 
 print("You have 10 guesses to win")
-while user_input != "quit":
+while Guesses_left > 0:
     output = []
     for letter in randomWords:
         if letter in letters_guessed:
@@ -23,8 +23,8 @@ while user_input != "quit":
         else:
             output.append("*")
     print(output)
-
-
+    Guesses_left -= 1
+    print(Guesses_left)
 
     if output == list(randomWords):
         print("You win")
