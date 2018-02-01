@@ -1,10 +1,6 @@
 import random
-import string
-print(string.ascii_letters)
-print(string.ascii_lowercase)
-print(string.punctuation)
 
-Word_bank = ["Games", "phone", "tablet", "ROS", "COD3",  ]
+Word_bank = ["Games", "phone", "tablet", "ROS", "BlackOps2", "PS4", "PUBG", "ClashOfClans", "Fortnite", "ClashRoyale"]
 length = len(Word_bank)
 range(11)
 range(len(Word_bank))
@@ -23,7 +19,7 @@ while Guesses_left > 0:
         else:
             output.append("*")
     print(output)
-    Guesses_left -= 1
+
     print(Guesses_left)
 
     if output == list(randomWords):
@@ -35,3 +31,4 @@ while Guesses_left > 0:
 
     if user_input not in list(randomWords):
         print("Guess again")
+        Guesses_left -= 1
