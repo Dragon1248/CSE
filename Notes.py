@@ -1,4 +1,4 @@
-
+'''
 a = 4
 b = 3
 print(3 + 5)
@@ -80,7 +80,54 @@ import random  # This should be on line 1
 print(random.randint(0, 1000))
 # Recasting
 c = '1'
-print(c == 1)  # we have a string and an int
+print(c == 1)  # we have a string and an int# Lists
+#
+# the_count = [1, 2, 3, 4, 5]
+# cheeseburger_ingredients = ['cheese', "beef", "sauce", "sesame seed bun", "avocado", "onion"]
+# print(cheeseburger_ingredients[0])
+# print(len(cheeseburger_ingredients))
+#
+# # Going through lists
+# for generic_item_name in cheeseburger_ingredients:
+#     print(generic_item_name)
+#
+# for num in the_count:
+#     print(num * 2)
+#
+# length = len(cheeseburger_ingredients)
+# range(5)  # A list of the numbers 0 through 4
+# range(len(cheeseburger_ingredients))  # Generates a list of all indices
+#
+# for num in range(len(cheeseburger_ingredients)):
+#     item = cheeseburger_ingredients[num]
+#     print("The item at index %d is %s" % (num, item))
+#
+# # Recasting into a list
+# strOne = "Hello World!"
+# listOne = list(strOne)
+# print(listOne)
+# listOne[11] = '.'
+# print(listOne)
+#
+# # Adding things to a list
+# cheeseburger_ingredients.append("Fries")
+#
+# # Remove things from a list
+# cheeseburger_ingredients.pop(1)
+# print(cheeseburger_ingredients)
+# cheeseburger_ingredients.remove("cheese")
+# print(cheeseburger_ingredients)
+#
+# # Getting the alphabet
+# import string
+# print(string.ascii_letters)
+# print(string.ascii_lowercase)
+# print(string.punctuation)
+#
+# # Making things Lowercase
+# strTwo = "ThIs Is A VeRY oDd sEnTeNCe"
+# lowercase = strTwo.lower()
+# print(lowercase)
 print(int(c) == 1)
 print(c == str(1))
 # Comparisons
@@ -89,51 +136,29 @@ print(1 != 2)  # 1 is not equal to 2
 print(not False)
 '''
 
-# Lists
+#
 
-the_count = [1, 2, 3, 4, 5]
-cheeseburger_ingredients = ['cheese', "beef", "sauce", "sesame seed bun", "avocado", "onion"]
-print(cheeseburger_ingredients[0])
-print(len(cheeseburger_ingredients))
+# Dictionaries - Made up of key: value pair
 
-# Going through lists
-for generic_item_name in cheeseburger_ingredients:
-    print(generic_item_name)
+dictionary = {"name": 'Lance', 'age': 26, 'height': 6 * 12 + 2}
 
-for num in the_count:
-    print(num * 2)
+# Accessing things from a dictionary
+print(dictionary['name'])
+print(dictionary['age'])
+print(dictionary['height'])
 
-length = len(cheeseburger_ingredients)
-range(5)  # A list of the numbers 0 through 4
-range(len(cheeseburger_ingredients))  # Generates a list of all indices
+large_dictionary = {
+    'CA': 'California',
+    'AZ': 'Arizona',
+    'NY': 'New York'
+}
+print(large_dictionary['NY'])
 
-for num in range(len(cheeseburger_ingredients)):
-    item = cheeseburger_ingredients[num]
-    print("The item at index %d is %s" % (num, item))
-
-# Recasting into a list
-strOne = "Hello World!"
-listOne = list(strOne)
-print(listOne)
-listOne[11] = '.'
-print(listOne)
-
-# Adding things to a list
-cheeseburger_ingredients.append("Fries")
-
-# Remove things from a list
-cheeseburger_ingredients.pop(1)
-print(cheeseburger_ingredients)
-cheeseburger_ingredients.remove("cheese")
-print(cheeseburger_ingredients)
-
-# Getting the alphabet
-import string
-print(string.ascii_letters)
-print(string.ascii_lowercase)
-print(string.punctuation)
-
-# Making things Lowercase
-strTwo = "ThIs Is A VeRY oDd sEnTeNCe"
-lowercase = strTwo.lower()
-print(lowercase)
+large_dictionary = {
+    'CA': [
+        'Fresno',
+        "San Fransico",
+        "San Jose"
+    ],
+    'Az'l
+}
