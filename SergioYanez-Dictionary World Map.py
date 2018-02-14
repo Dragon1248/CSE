@@ -7,19 +7,36 @@ world_map = {
             'SOUTH': 'SOUTHHOUSE'
         }
     },
-    'SOUTHHOUSE':{
+    'SOUTHHOUSE': {
         'NAME': 'South of House',
-        'DESCIPTION': "Insert Description here",
+        'DESCRIPTION': "Insert Description here",
         'PATHS': {
             'WEST': 'WESTHOUSE'
         }
-
     },
     'NORTHHOUSE': {
         'NAME': 'North of house',
         'DESCRIPTION': "Insert Description Here",
         'PATHS': {
-            'WEST': 'WESTHOUSE'
+            ' WEST': 'WESTHOUSE'
         }
     }
 }
+
+current_node = world_map['WESTHOUSE']
+directions = ['NORTH', 'SOUTH', 'EAST', 'WEST']
+
+while True:
+    print(current_node['NAME'])
+    print(current_node['DESCRIPTION'])
+    command = input('>_')
+    if command == 'quit':
+        quit(0)
+    if command in directions:
+        try:
+             name_of_node = current_node['PATHS'][command]
+             print(name_of_node)
+        except KeyError:
+            print("You can not go this way")
+    else:
+        print("Command not recognized")
