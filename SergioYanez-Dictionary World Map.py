@@ -18,7 +18,14 @@ world_map = {
         'NAME': 'North of house',
         'DESCRIPTION': "Insert Description Here",
         'PATHS': {
-            ' WEST': 'WESTHOUSE'
+            'WEST': 'WESTHOUSE'
+        }
+    },
+    'BUSSTOP':  {
+        'NAME': '',
+        'DESCRIPTION': "Insert Description Here",
+        'PATHS': {
+            ''
         }
     }
 }
