@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/HangMan.SergioY.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -27,8 +27,8 @@
       <file leaf-file-name="sergioYanez-worldmap.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sergioYanez-worldmap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+            <state relative-caret-position="-250">
+              <caret line="11" column="72" lean-forward="true" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -37,8 +37,8 @@
       <file leaf-file-name="SergioYanez-Dictionary World Map.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SergioYanez-Dictionary World Map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+            <state relative-caret-position="19">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="48" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -124,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SergioYanez-Dictionary World Map">
+  <component name="RunManager" selected="Python.sergioYanez-worldmap">
     <configuration name="HangMan.SergioY" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,15 +176,34 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="3">
+    <configuration name="sergioYanez-worldmap" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cse" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sergioYanez-worldmap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.HangMan.SergioY" />
       <item index="1" class="java.lang.String" itemvalue="Python.Notes" />
       <item index="2" class="java.lang.String" itemvalue="Python.SergioYanez-Dictionary World Map" />
+      <item index="3" class="java.lang.String" itemvalue="Python.sergioYanez-worldmap" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.SergioYanez-Dictionary World Map" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Notes" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.sergioYanez-worldmap" />
+        <item index="1" class="java.lang.String" itemvalue="Python.SergioYanez-Dictionary World Map" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Notes" />
       </list>
     </recent_temporary>
   </component>
@@ -233,11 +252,35 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HangMan.SergioY.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SergioYanez-Dictionary World Map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sergioYanez-worldmap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SergioYanez-Dictionary World Map.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -454,23 +497,23 @@
     <entry file="file://$PROJECT_DIR$/HangMan.SergioY.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SergioYanez-Dictionary World Map.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+        <state relative-caret-position="19">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="48" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sergioYanez-worldmap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+        <state relative-caret-position="-250">
+          <caret line="11" column="72" lean-forward="true" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
           <folding />
         </state>
       </provider>
