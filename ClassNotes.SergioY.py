@@ -71,4 +71,3 @@ class car(object):
 
 
 my_car = Car("Maclaren P1", "Blue", 2, 10000000)
-
